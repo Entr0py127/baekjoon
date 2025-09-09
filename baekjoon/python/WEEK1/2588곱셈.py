@@ -1,0 +1,6 @@
+a=int(input())
+b=int(input())
+x=a*(b%10)
+y=a*((b%100)//10)
+z=a*(b//100)
+print("{}\n{}\n{}\n{}".format(x,y,z,x+y*10+z*100))
